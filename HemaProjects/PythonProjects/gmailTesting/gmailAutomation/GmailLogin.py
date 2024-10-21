@@ -7,9 +7,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-your_email = "hemashiva1281@gmail.com"
-your_password = "Hemakallesh@90"
-to_email = "hemassai1281@gmail.com"
+your_email = "example@gmail.com"
+your_password = "example123"
+to_email = "hemasexample1@gmail.com"
 subject = "Automation Testing example"
 message = "Working Well 1 All the best"
 

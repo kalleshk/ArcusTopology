@@ -12,7 +12,7 @@ driver.get("https://accounts.google.com/v3/signin/identifier?hl=en-gb&ifkv=ASKXG
 
 # Find the email input field and enter your email
 email_input = driver.find_element("name", "identifier")
-email_input.send_keys("hemashiva1281@gmail.com")
+email_input.send_keys("heexample@gmail.com")
 
 # Click on the "Next" button
 next_button = driver.find_element(By.ID,'identifierNext')
@@ -23,7 +23,7 @@ time.sleep(2)
 
 # Find the password input field and enter your password
 password_input = driver.find_element(By.ID, "password")
-password_input.send_keys("Hemakallesh@90")
+password_input.send_keys("example90")
 
 # Click on the "Next" button
 password_next_button = driver.find_element(By.ID, 'passwordNext')

@@ -14,8 +14,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get("https://www.facebook.com/login/")
-driver.find_element(By.NAME, "email").send_keys("hemashiva957@gmail.com")
-driver.find_element(By.NAME, "pass").send_keys("Hemashiva9579606224671")
+driver.find_element(By.NAME, "email").send_keys("hema@gmail.com")
+driver.find_element(By.NAME, "pass").send_keys("usepassword")
 
 
 driver.implicitly_wait(4)

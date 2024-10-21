@@ -11,8 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 driver.get("https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzA2Mjk3NzgxLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D")
-driver.find_element(By.NAME, "email").send_keys("hemashiva957@gmail.com")
-driver.find_element(By.NAME, "pass").send_keys("Hemashiva9579606224671")
+driver.find_element(By.NAME, "email").send_keys("example@gmail.com")
+driver.find_element(By.NAME, "pass").send_keys("example1234")
 driver.implicitly_wait(4)
 
 driver.find_element(By.ID,"loginbutton").click()
